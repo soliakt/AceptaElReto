@@ -6,10 +6,10 @@ public class p622 {
         int nota;
         int q;
 
-        while((q = tec.nextInt())!=0){
+        while ((q = tec.nextInt())!=0){
             int sumatorio = 0;
         
-            for(int i = 0; i < q; i++) {
+            for (int i = 0; i < q; i++) {
                 nota = tec.nextInt();
                 sumatorio += nota;
             }
