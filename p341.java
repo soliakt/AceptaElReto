@@ -40,7 +40,8 @@ public class p341 {
                     cajaIsmael = i;
                 }
             }
-            System.out.println(cajaIsmael + 1);
+            cajaIsmael++;
+            System.out.println(cajaIsmael);
         } while (tec.hasNext());
         tec.close();
     }
