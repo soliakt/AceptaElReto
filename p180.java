@@ -3,14 +3,11 @@ import java.util.Scanner;
 public class p180 {
 
 	public static void main(String[] args){
-
 		Scanner s = new Scanner(System.in);
 		int lado1 = 0, lado2 = 0, lado3 = 0; 
 		int p1, p2;
 		int iteraciones;
-
 		iteraciones = s.nextInt();
-
 
 		for (int i = 0; i < iteraciones; ++i){
 			lado1 = s.nextInt();
