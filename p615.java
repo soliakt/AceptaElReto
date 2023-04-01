@@ -4,7 +4,7 @@ public class p615 {
         Scanner tec = new Scanner(System.in);
         int n, f, c, t;
         c = tec.nextInt();
-        while(c-- != 0){
+        while(c-- != 0) {
             n = tec.nextInt();
             f = tec.nextInt();
             t = tec.nextInt();
