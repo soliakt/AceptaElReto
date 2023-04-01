@@ -4,12 +4,12 @@ public class p335{
         Scanner tec = new Scanner (System.in);
         int casosDePrueba = tec.nextInt();
 
-        for(int i = 0; i < casosDePrueba; i++){
+        for (int i = 0; i < casosDePrueba; i++){
             long base = 1;
             long q = 1;
             long alturaTotal = tec.nextLong();
             
-            if(alturaTotal == 1) q = 1;
+            if (alturaTotal == 1) q = 1;
             else
                 for(long altura = 2; altura <= alturaTotal; altura++){
                 base += altura;
