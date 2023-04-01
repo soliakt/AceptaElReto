@@ -7,9 +7,7 @@ public class p617{
         Scanner tec = new Scanner(System.in);
 
         nCasosPrueba = tec.nextInt();
-
-        for(a = 0; a < nCasosPrueba; a++){
-            
+        for (a = 0; a < nCasosPrueba; a++){
             hilo = "";
             i = 0;
             nUsuarios = tec.nextInt();
