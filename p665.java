@@ -7,9 +7,9 @@ public class p665 {
 
         int n = tec.nextInt();
         tec.nextLine();
-        for(int i = n; i > 0; i--){
+        for (int i = n; i > 0; i--){
             userInput = tec.nextLine();
-            String [] versions=userInput.split(" ");
+            String [] versions = userInput.split(" ");
             versionInicial = versions[0];
             versionFinal = versions[1];
             
@@ -19,7 +19,7 @@ public class p665 {
             String minor = String.format("%s.%s.%s",parts[0], Integer.parseInt(parts[1]) + 1, 0);
             String patch = String.format("%s.%s.%s",parts[0], parts[1], Integer.parseInt(parts[2]) + 1);
     
-            if(versionFinal.equals(major) || versionFinal.equals(minor) || versionFinal.equals(patch))
+            if (versionFinal.equals(major) || versionFinal.equals(minor) || versionFinal.equals(patch))
                 System.out.println("SI");
             else
                 System.out.println("NO");
