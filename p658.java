@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class p658 {
     public static void main(String[] args) {
         Scanner tec = new Scanner(System.in);
-        double n = 1; 
+        double n = 1;  
         int entrada, i = 0; 
         while ((entrada = tec.nextInt()) != 0){
             n = 1;
