@@ -12,8 +12,7 @@ public class p616 {
             int marcadorB = 0;
             for (i = n; i > 0; i--) {
                 golpeo = tec.next();
-                if (golpeo.equals("PIC"))
-                    direccionDerecha = !direccionDerecha;
+                if (golpeo.equals("PIC")) direccionDerecha = !direccionDerecha;
                 if (golpeo.equals("PONG!")) {
                     if (direccionDerecha) marcadorA++;
                     else marcadorB++;
