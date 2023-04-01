@@ -1,5 +1,3 @@
-package github;
-
 // Funciona perfecto pero da RTE
 
 import java.util.Scanner;
