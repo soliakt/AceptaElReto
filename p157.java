@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class p157 {
     public static void main(String[] args) {
-        
         Scanner tec = new Scanner(System.in);
         int dia=0, mes, suma=0, intentos;
         suma+=dia;
